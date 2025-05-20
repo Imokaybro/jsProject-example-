@@ -2,7 +2,7 @@ const { I } = inject()
 /**
  * @param {Object} client - объект тестовых данных клиента
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы}.
  * SubFormName: Документы (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы)
  */
 class IdentityDocuments {

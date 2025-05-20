@@ -1,6 +1,6 @@
 const { I } = inject()
 /**
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_пдф}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_пдф}.
  * FormName: Прикрепление_сканов_пдф (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_пдф)
  */
 class AddingScans {

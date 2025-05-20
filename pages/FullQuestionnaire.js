@@ -15,7 +15,7 @@ const { I } = inject()
 /**
  * @param {Object} client - объект тестовых данных клиента
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Анкета_товарный_кредит_метком}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Анкета_товарный_кредит_метком}.
  * FormName: Анкета товарный кредит (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Анкета_товарный_кредит_метком)
  */
 class FullQuestionnaire {

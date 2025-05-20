@@ -1,6 +1,6 @@
 const { I } = inject()
 /**
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_заявки.Заключение}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_заявки.Заключение}.
  * FormName: Заключение (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_заявки.Заключение)
  */
 class Conclusion {

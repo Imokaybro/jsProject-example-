@@ -2,7 +2,7 @@ const ElementBuilder = require('../../helpers/ElementBuilder')
 const { I } = inject()
 /**
  * @param {Object} client - объект тестовых данных клиента
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы_предварительная_анкета}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы_предварительная_анкета}.
  * SubForm: БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Документы_удостоверяющие_личность.Документы_предварительная_анкета
  */
 class IdentityDocuments {

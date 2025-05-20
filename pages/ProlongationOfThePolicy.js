@@ -2,7 +2,7 @@ const { I } = inject()
 const { TransitionApplicationForInsurance } = require('../fragments/transition/TransitionApplicationForInsurance')
 /**
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.Формы.Заявка_Пролонгация}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.Формы.Заявка_Пролонгация}.
  * FormName: Заявка на пролонгацию (БанкоDELETEDий_базовый.Пролонгация.Формы.Заявка_Пролонгация)
  */
 class ProlongationOfThePolicy {

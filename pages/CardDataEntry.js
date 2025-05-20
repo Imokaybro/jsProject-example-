@@ -4,7 +4,7 @@ const { TransitionOpeningAccounts } = require('../fragments/transition/Transitio
 
 /**
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Для_процесса_оформления_кредита.DESS.Данные_по_картам}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Для_процесса_оформления_кредита.DESS.Данные_по_картам}.
  * FormName: Данные_по_картам (Кредиты_фл.Формы.Для_процесса_оформления_кредита.DESS.Данные_по_картам)
  */
 class CardDataEntry {

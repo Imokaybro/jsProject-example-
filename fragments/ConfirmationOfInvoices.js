@@ -8,7 +8,7 @@ const typeOfService = [
 ]
 /**
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Решение_по_заявке_валидация}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Решение_по_заявке_валидация}.
  * FormName: Решение_по_заявке_валидация (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Решение_по_заявке_валидация)
  */
 class ConfirmationOfInvoices {

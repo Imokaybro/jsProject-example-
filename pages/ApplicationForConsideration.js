@@ -13,7 +13,7 @@ const Casco = require('../fragments/applicationMetcomCalculation/additionalPurch
 
 /**
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_Метком_расчет}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_Метком_расчет}.
  * FormName: Заявка с расчетом (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_Метком_расчет)
  */
 class ApplicationForConsideration {

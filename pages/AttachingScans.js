@@ -5,7 +5,7 @@ const { TransitionPrintedDocs } = require('../fragments/transition/TransitionPri
 const { I } = inject()
 /**
  * Этап регистрации залога
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_новое_метком}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_новое_метком}.
  * FormName: Прикрепление сканов (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Прикрепление_сканов_новое_метком)
  */
 class AttachingScans {

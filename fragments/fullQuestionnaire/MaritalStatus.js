@@ -1,7 +1,7 @@
 const { I } = inject()
 /**
  * @param {Object} client - объект тестовых данных клиента
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Данные_о_семье.Семейное_положение}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Данные_о_семье.Семейное_положение}.
  * SubFormName: Семейное_положение (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Данные_о_семье.Семейное_положение)
  */
 class MaritalStatus {

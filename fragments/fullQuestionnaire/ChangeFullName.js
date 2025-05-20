@@ -3,7 +3,7 @@ const { IdentityDocuments } = require('../../fragments/fullQuestionnaire/Identit
 const { I } = inject()
 /**
  * @param {Object} client - объект тестовых данных клиента
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Прежние_ФИО}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Прежние_ФИО}.
  * FormName: Прежние_ФИО (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Прежние_ФИО)
  */
 class ChangeFullName {

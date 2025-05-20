@@ -1,6 +1,6 @@
 const { I } = inject()
 /**
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.Кредиты_фл.Формы.Для_процесса_оформления_кредита.Выбор_типа_кредита}
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.Кредиты_фл.Формы.Для_процесса_оформления_кредита.Выбор_типа_кредита}
  * FormName: Выбор типа кредита (Кредиты_фл.Формы.Для_процесса_оформления_кредита.Выбор_типа_кредита)
  * @param {*} typeCredit - выбранный тип кредита из DataCase(credit.typeCredit)
  */

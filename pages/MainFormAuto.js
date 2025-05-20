@@ -7,7 +7,7 @@ const { I } = inject()
  * Взаимодействия с главной формой
  * FormName: Главная форма (Кредиты_фл.Формы.Главная_форма_метком)
  * @param {Object} credit - объект с тестовыми данными кредита
- *  {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Главная_форма_метком}
+ *  {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Главная_форма_метком}
  */
 class MainFormAuto {
   #element = async (element, type) => {

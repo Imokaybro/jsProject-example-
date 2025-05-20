@@ -5,11 +5,11 @@ const { AddressOfWorkGar } = require('./AddressOfWorkGar')
  * @param {Object} client - объект тестовых данных клиента
  * Объединенная подформа, включающая в себя еще 3 подформы
  * SubFormName: Адрес_по_ГАР (Интеграция_с_дадата.Формы.Адрес_по_ГАР)
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.Интеграция_с_дадата.Формы.Адрес_по_ГАР}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.Интеграция_с_дадата.Формы.Адрес_по_ГАР}.
  * SubFormName: Адрес (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Адреса.Адрес)
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Адреса.Адрес}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Блоки_анкеты.Адреса.Адрес}.
  * SubFormName: Место_работы_СВК_товарная_метком (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Место_работы_СВК_товарная_метком)
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Место_работы_СВК_товарная_метком}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Место_работы_СВК_товарная_метком}.
  */
 class PlaceOfWork {
   constructor() {

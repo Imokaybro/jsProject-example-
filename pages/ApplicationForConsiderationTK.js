@@ -6,7 +6,7 @@ const { TransitionApplicationForIssuance } = require('../fragments/transition/Tr
 
 /**
  * @param {Object} credit - объект тестовых данных кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_ТК_Метком}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_ТК_Метком}.
  * FormName: Заявка_ТК_Метком (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Формы_метком.Заявка_ТК_Метком)
  */
 class ApplicationForConsiderationTK {

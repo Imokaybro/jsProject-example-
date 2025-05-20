@@ -2,8 +2,8 @@ const ContextError = require('../../helpers/ContextError')
 const { RBSError } = require('../RBSError')
 const { I } = inject()
 const DESS = 'Базовый:Организация:поИд(идобъекта(кредит.точка_оформления))[0]'
-const request = 'https://wrdc-dess-dit.sovcombank.group:443/CabinetIntegration/put_request.aspx'
-const response = 'https://wrdc-dess-dit.sovcombank.group:443/CabinetIntegration/get_status.aspx'
+const request = 'DELETED'
+const response = 'DELETED'
 const RBS = 'Базовый:Пользователь:По_логину_не_удаленные(ТЕКУЩИЙПОЛЬЗОВАТЕЛЬ())[0].выбранный_рбс :='
 /**
  * Навигация с этапа короткой анкеты

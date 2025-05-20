@@ -9,7 +9,7 @@ const { TransitionApplicationForScoring } = require('../fragments/transition/Tra
 /**
  * @param {Object} client - объект тестовых данных клиента
  * @param {Object} credit - данные кредита
- * {@link http://urt-fis-app01.sovcombank.group:8080/web/conf/#application.Кредитование_физлиц.Кредитный_фронт:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Заявка_оценка_заемщика}.
+ * {@link DELETED:8080/web/conf/#application.DELETED:form.БанкоDELETEDий_базовый.Кредиты_фл.Формы.Заявка_оценка_заемщика}.
  * FormName: Заявка оценка заемщика (БанкоDELETEDий_базовый.Кредиты_фл.Формы.Заявка_оценка_заемщика)
  */
 class ApplicationForScoring {
