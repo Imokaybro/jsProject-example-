@@ -12,7 +12,7 @@ class PushSignedPrintDoc {
     await I.cSay('Подготовка к отправке PushPrintDocs')
     const url = codeceptjs.config.get().urlServiceAuto
     const request = await I.generateXMLPushSignedPrintDoc(credit)
-    const soapAction = 'http://bp.ws.fisgroup.ru/PushSignedPrintDoc'
+    const soapAction = 'DELETED'
 
     brake: for (let i = 0; i < 2; i++) {
       I.wait(250)
