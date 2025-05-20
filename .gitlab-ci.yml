@@ -1,0 +1,70 @@
+variables:
+  mnt: DELETED
+  tests: /tests
+  STAND_MANUAL:
+    value: 'kb'
+    description: 'Environment: kb, bt'
+  WORKERS_MANUAL:
+    value: '5'
+    description: '1-n'
+  ARR_TAGS:
+    value: ''
+    description: 'example: @1111|@4444'
+  RBS_MANUAL:
+    value: 'RBSSUP2'
+    description: 'DELETED'
+  OVERRIDE_FOR_MANUAL:
+    value: '"tags": "", "helpers": {"Puppeteer": {"chrome": {"headless": "true"}}}'
+    description: 'По-умолчанию используются дефолтные значения доппараметров в конфигурационных файлах. При необходиомости их значение можно перепределить, например укзать дополнительные тэги или количество перезапусков сценариев: "tags": "@migration,@KA", "retries": "0". Значения параметров передаются в виде json (https://codecept.io/commands/, https://codecept.io/advanced/#tags). ***Тэги перечислять строго через запятую, без лишних пробелов***'
+  OVERRIDE:
+    value: '"tags": "", "helpers": {"Puppeteer": {"chrome": {"headless": "true"}}}'
+    description: 'По-умолчанию используются дефолтные значения доппараметров в конфигурационных файлах. При необходиомости их значение можно перепределить, например укзать дополнительные тэги или количество перезапусков сценариев: "tags": "@migration,@KA", "retries": "0". Значения параметров передаются в виде json (https://codecept.io/commands/, https://codecept.io/advanced/#tags). ***Тэги перечислять строго через запятую, без лишних пробелов***'
+stages:
+  - start_from_test_it
+  - start_from_gitlab
+test_it_run:
+  stage: start_from_test_it
+  tags:
+    - qajs
+  image: DELETED
+  when: always
+  only:
+    - triggers
+  script:
+    - cp -rf ${mnt}/* ${tests}/
+    - cd ${tests}
+    - node testIT/gitlabBootstrap.js
+    - export $(grep -v '^#' .env.codeceptjs | xargs)
+    - node ./bin/gitlabWorker.js stand="${ENVIRONMENT}" override="${OVERRIDE}" tests="${TAGS}" workers="5" plugins="testIT"
+  after_script:
+    - cp -rf ${tests}/output/* ${mnt}/output/
+    - rm -rf ./.env
+    - rm -rf ./.env.codeceptjs
+  artifacts:
+    when: always
+    paths:
+      - ${mnt}/output
+    expire_in: 7 day
+# Запуск тестовой сборки в ручном режиме для кфо/авто
+manual_test_run:
+  stage: start_from_gitlab
+  tags:
+    - qajs
+  image: DELETED
+  script:
+    - echo ${RBS_MANUAL}
+    - echo ${STAND_MANUAL}
+    - echo ${ARR_TAGS}
+    - echo ${WORKERS_MANUAL}
+    - cp -rf ${mnt}/* ${tests}/
+    - cd ${tests}
+    - node ./bin/gitlabWorker.js stand="${STAND_MANUAL}" override="${OVERRIDE_FOR_MANUAL}" tests="${ARR_TAGS}" workers="${WORKERS_MANUAL}"
+  after_script:
+    - cp -rf ${tests}/output/* ${mnt}/output/
+  only:
+    - web
+  artifacts:
+    when: always
+    paths:
+      - ${mnt}/output
+    expire_in: 7 day

@@ -1,0 +1,10 @@
+node_modules/
+debug.log
+projects/cfo/.vscode/launch.json
+projects/auto/.vscode/launch.json
+.vscode/launch.json
+.env
+.env.codeceptjs
+tms.config.json
+package-lock.json
+bin/externalId.json
